@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router";
 import Logo from "./logo";
 import Paragraph from "./heading/Paragraph";
@@ -17,8 +16,8 @@ const Footer = () => {
           <div className="max-w-md">
             <Logo />
             <Paragraph className="text-sm text-gray-600 mt-4">
-              Streamline your event experience with QuickEvent - the fastest way to
-              discover, create, and manage professional gatherings.
+              Streamline your event experience with QuickEvent - the fastest way
+              to discover, create, and manage professional gatherings.
             </Paragraph>
 
             {/* Social Links */}
@@ -132,7 +131,8 @@ const Footer = () => {
             © {new Date().getFullYear()} QuickEvent. All rights reserved.
           </p>
           <p className="text-xs text-gray-400 mt-2">
-            Developed by <span className="text-gray-600 font-semibold">Sahidul Islam</span>
+            Developed by{" "}
+            <span className="text-gray-600 font-semibold">Sahidul Islam</span>
           </p>
         </div>
       </div>

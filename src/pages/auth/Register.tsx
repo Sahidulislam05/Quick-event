@@ -75,19 +75,20 @@ const Register = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-white to-lime-50 py-20 px-4">
+    <div className="min-h-screen bg-linear-to-br from-emerald-50 via-white to-lime-50 py-20 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-100 text-emerald-700 rounded-full text-xs font-bold uppercase tracking-wide mb-6">
             <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></div>
-            Join EventHive
+            Join Quick Event
           </div>
           <Heading className=" font-bold text-gray-900 ">
             Get Started Today
           </Heading>
           <Paragraph className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Plan smarter. Host better. Join EventHive and transform your events.
+            Plan smarter. Host better. Join Quick Event and transform your
+            events.
           </Paragraph>
         </div>
 

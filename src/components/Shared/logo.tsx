@@ -40,9 +40,8 @@ const Logo: React.FC<LogoProps> = ({
           isTransparent ? "text-white" : "text-slate-500"
         }`}
       >
-        Quick
         <span className={isTransparent ? "text-white/90" : "text-primary"}>
-          Event
+          Quick Event
         </span>
       </h1>
     </div>

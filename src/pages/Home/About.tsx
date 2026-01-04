@@ -1,6 +1,7 @@
 import React from "react";
 import { Zap, Users, Globe, Award } from "lucide-react";
 import { motion } from "framer-motion";
+import { Link } from "react-router";
 
 const About = () => {
   return (
@@ -105,9 +106,12 @@ const About = () => {
           Join thousands of organizers who use QuickEvent to power their
           experiences. Start free today.
         </p>
-        <button className="btn bg-primary text-white hover:bg-emerald-700 rounded-full px-8 border-none">
+        <Link
+          to={"/"}
+          className="btn bg-primary text-white hover:bg-emerald-700 rounded-full px-8 border-none"
+        >
           Get Started
-        </button>
+        </Link>
       </section>
     </div>
   );

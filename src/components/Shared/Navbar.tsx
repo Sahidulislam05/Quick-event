@@ -111,7 +111,7 @@ const Navbar = () => {
       <div
         className={`max-w-7xl mx-auto flex items-center justify-between gap-4 transition-all duration-300 ${
           isScrolled
-            ? "bg-white/80 backdrop-blur-xl shadow-lg border border-gray-100/50 rounded-full px-6 py-2"
+            ? "bg-white/80 backdrop-blur-xl shadow-lg  rounded-full px-6 py-2"
             : ""
         }`}
       >

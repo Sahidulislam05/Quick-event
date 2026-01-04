@@ -66,7 +66,7 @@ const HeroSlider = () => {
   };
 
   return (
-    <div className="relative w-full h-[500px] md:h-[650px] lg:h-[750px] overflow-hidden">
+    <div className="relative w-full h-125 md:h-[650px] lg:h-[750px] overflow-hidden">
       {/* Background Images */}
       <AnimatePresence mode="wait">
         <motion.div
@@ -83,7 +83,7 @@ const HeroSlider = () => {
             className="w-full h-full object-cover"
           />
           {/* Professional Grade Gradient Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-tr from-slate-900 via-slate-900/40 to-transparent"></div>
+          <div className="absolute inset-0 bg-linear-to-tr from-slate-900 via-slate-900/40 to-transparent"></div>
           <div className="absolute inset-0 bg-black/30"></div>
         </motion.div>
       </AnimatePresence>
