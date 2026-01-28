@@ -1,7 +1,7 @@
 
 # 🎫 *Quick Event - Professional Event Management System*
 
-Quick Event is a full-stack event management platform that connects event organizers with enthusiasts. From booking music fests to managing corporate seminars, EventHive provides a seamless experience with role-based access control, secure payments, and dynamic seat management.
+Quick Event is a full-stack event management platform that connects event organizers with enthusiasts. From booking music fests to managing corporate seminars, Quick Event provides a seamless experience with role-based access control, secure payments, and dynamic seat management.
 
 
 
@@ -98,4 +98,5 @@ VITE_stripe_pk=your_stripe_publishable_key
 ## 📄 License
 > This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit)
 ---
+
 
